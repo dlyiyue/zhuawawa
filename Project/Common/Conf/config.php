@@ -1,9 +1,9 @@
 <?php return array (
   'DEFAULT_MODULE' => 'Wap',
-  'DB_HOST' => '127.0.0.1',
+  'DB_HOST' => 'rm-uf69213z4114968lg.mysql.rds.aliyuncs.com',
   'DB_NAME' => 'haokuai',
   'DB_USER' => 'root',
-  'DB_PWD' => 'root',
+  'DB_PWD' => 'Sanmor$%!615',
   'DB_PORT' => '3306',
   'DB_PREFIX' => 'haokuai_',
   'URL_MODEL' => 0,
