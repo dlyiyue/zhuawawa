@@ -25,7 +25,7 @@ class WxloginController extends \Think\Controller
 			} else {
 				$url = 'http://' . $_SERVER['HTTP_HOST'] . U('Wap/Wxlogin/getinfo?urls=' . $urls);
 				$url = urlencode($url);
-				$wxurl = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=' . $sysconfig['cwxappid'] . '&redirect_uri=' . $url . '&response_type=code&scope=snsapi_userinfo#wechat_redirect';
+				$wxurl = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=' . $sysconfig['cwxappid'] . '&redirect_uri=' . $url . '&response_type=code&scope=snsapi_base#wechat_redirect';
 			}
 			header('Location:' . $wxurl);
 		}
